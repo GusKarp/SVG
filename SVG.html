@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <svg width="73%" viewBox="0 0 300 200" style="background-image: url(http://www.citedelamer.com/wp-content/uploads/la-cite-de-la-mer_fond-polaire.jpg); background-size: 1000px 666px;">
+      <image x="190" y="95" width="15" height="15" xlink:href="http://4vector.com/i/free-vector-cartoon-penguin-clip-art_128050_cartoon-penguin-clip-art/Cartoon_Penguin_clip_art_hight.png">
+        <animate id="xmove" attributeName="x" from="200" to="55" dur="2s" begin="click" fill="freeze"/>
+        <animate id="ymove" attributeName="y" from="95" to="88" dur="0.3s" begin="xmove.end" fill="freeze"/>
+        <animate id="xmove2" attributeName="x" from="55" to="30" dur="1s" begin="ymove.end" fill="freeze"/>
+        <animate id="ymove2" attributeName="y" from="88" to="83" dur="0.3s" begin="xmove2.end;ymove3.end" fill="freeze"/>
+        <animate id="ymove3" attributeName="y" from="83" to="88" dur="0.3s" begin="ymove2.end" fill="freeze"/>
+      </image>
+      <image x="250" y="75" width="100" height="100" xlink:href="http://www.abc-color.com/image/coloring/dolphins/001/killer-whale/killer-whale-picture-color.png">
+        <animate attributeName="x" from="250" to="60" dur="3s" begin="1s" fill="freeze">
+      </image>
+      <polygon points="10 103  15 115  23 110  30 125  37 110  45 115  50 103" fill="white"/>
+      <rect x="0" y="105" width="3000" height="100" fill="blue" fill-opacity="0.25"/>
+      <text x="50" y="50" font-family="sans-serif" font-size="10" fill="black">Help The Penguin Escape!</text>
+    </svg>
+  </body>
+</html>
